@@ -1,0 +1,76 @@
+﻿<Window x:Class="ProjectPRN212.GUI.Page_Admin.ManagementUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN212.GUI.Page_Admin"
+        mc:Ignorable="d"
+        Title="ManagementUser" Height="544" Width="1081">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Background="#FFB3E5FC" Height="50" VerticalAlignment="Top">
+            <TextBlock Text="Management User" Foreground="#FF01579B" FontSize="24" VerticalAlignment="Center" Margin="10,0"/>
+        </StackPanel>
+
+        <DockPanel Background="#FFFFF9C4" Height="40" VerticalAlignment="Top" Margin="0,50,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="Manage Products"  Name="btnManageProduct"  Width="120" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" Click="btnManageProduct_Click"/>
+                <Button Content="Manage Users" Width="120" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent"/>
+            </StackPanel>
+
+            <Button Name="btnLogout" Content="Logout" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" DockPanel.Dock="Right" Click="btnLogout_Click"  />
+            <Button  x:Name="btnProfile"  Content="Profile" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" HorizontalAlignment="Right" DockPanel.Dock="Right" Click="btnProfile_Click"  />
+        </DockPanel>
+
+        <DataGrid x:Name="dgUsers" Margin="10,95,10,4"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  ItemsSource="{Binding Customers}"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CustomerId}" Width="50"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Fullname}" Width="150" FontWeight="Bold"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="150"/>
+
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200"/>
+                <DataGridTextColumn Header="Phone" Binding="{Binding PhoneNumber}" Width="150"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="200"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100"/>
+
+                <DataGridTemplateColumn Header="Actions" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Lock User" Background="Red"  Click="lockUserButton_Click" Margin="5">
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Status}" Value="True">
+                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+
+                                <Button Content="Unlock User" Click="UnlockUserButton_Click" Margin="5">
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Status}" Value="False">
+                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

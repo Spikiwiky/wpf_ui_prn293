@@ -1,0 +1,78 @@
+﻿<Window x:Class="ProjectPRN212.GUI.Order.OrderDetail"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:ProjectPRN212.GUI.Order"
+            mc:Ignorable="d"
+            Title="Order Detail" Height="600" Width="800">
+    <Grid>
+        <!-- Header -->
+        <StackPanel Orientation="Horizontal" Background="#FFB3E5FC" Height="50" VerticalAlignment="Top">
+            <TextBlock Text="Order Detail" Foreground="#FF01579B" FontSize="24" VerticalAlignment="Center" Margin="10,0"/>
+        </StackPanel>
+
+
+        <!-- Order Information -->
+        <StackPanel Margin="10,100,10,10" Background="#FFFFF3E0">
+            <TextBlock Text="Order Details" FontSize="24" FontWeight="Bold" Margin="10" Foreground="#FF01579B" TextAlignment="Center"/>
+
+            <!-- Order Information -->
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Order Date:" FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Name="txtOrderDate" VerticalAlignment="Center"/>
+
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Receiver_fullname" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="1" Grid.Column="1"  Name="txtReceiver_fullname" VerticalAlignment="Center" Margin="0,5,0,0"/>
+
+
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Receiver_email:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="2" Grid.Column="1"  Name="txtReceiver_email"   VerticalAlignment="Center" Margin="0,5,0,0"/>
+
+
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Phone_number:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" Name="txtPhone_number" VerticalAlignment="Center" Margin="0,5,0,0"/>
+
+
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Receiver_address:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="4" Grid.Column="1" Name="txtReceiver_address"  VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Note:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="5" Grid.Column="1"  Name="txtNote" VerticalAlignment="Center" Margin="0,5,0,0"/>
+
+                <TextBlock Grid.Row="6" Grid.Column="0" Text="Email of Customer order  :" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock Grid.Row="6" Grid.Column="1"  Name="txtEmailOfCustomer"  VerticalAlignment="Center" Margin="0,5,0,0"/>
+            </Grid>
+
+            <ListView Grid.Row="1" Margin="10" Background="White" Name="lvOrderDetails">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Product Name" DisplayMemberBinding="{Binding ProductName}" Width="200"/>
+                        <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Quantity}" Width="100"/>
+                        <GridViewColumn Header="Product Price" DisplayMemberBinding="{Binding ProductPrice}" Width="100"/>
+                        <GridViewColumn Header="Total Price" DisplayMemberBinding="{Binding TotalPrice}" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <TextBlock Text="Total Order:" FontSize="24" FontWeight="Bold" Margin="10" Foreground="Red" TextAlignment="Right"/>
+            <TextBlock Name="txtTotalOrder" Text="{Binding TotalOrderAmount}" FontSize="24" FontWeight="Bold" Margin="10" Foreground="Red" TextAlignment="Right"/>
+            <Button Content="Back" Name="btnBack" Background="Green" Foreground="White" FontSize="16" Width="100" Margin="10" Click="btnBack_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

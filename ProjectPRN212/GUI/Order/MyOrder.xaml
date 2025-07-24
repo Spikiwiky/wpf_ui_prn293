@@ -1,0 +1,104 @@
+﻿<Window x:Class="ProjectPRN212.GUI.Order.MyOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN212.GUI.Order"
+        mc:Ignorable="d"
+        Title="MyOrder" Height="456" Width="811">
+    <Grid>
+        <!-- Header -->
+        <StackPanel Orientation="Horizontal" Background="#FFB3E5FC" Height="50" VerticalAlignment="Top">
+            <TextBlock Text="Store App" Foreground="#FF01579B" FontSize="24" VerticalAlignment="Center" Margin="10,0"/>
+        </StackPanel>
+
+        <!-- Navigation Buttons -->
+        <DockPanel Background="#FFFFF9C4" Height="40" VerticalAlignment="Top" Margin="0,50,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="Home" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" Click="Button_Click"/>
+                <Button Content="Products" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" Click="Button_Click_1"/>
+                <Button Content="Cart" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" Click="Button_Click_2"/>
+                <Button Name="btnMyOrder" Content="My Order" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent"/>
+                <!-- You can add more navigation buttons here if needed -->
+            </StackPanel>
+            <Button x:Name="btnLogout" Content="Logout" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" HorizontalAlignment="Right" DockPanel.Dock="Right" Click="btnLogout_Click"/>
+            <Button Name="btn_Login" Content="Login/Register" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" HorizontalAlignment="Right" DockPanel.Dock="Right" Click="btn_Login_Click"/>
+            <Button x:Name="btnProfile" Content="Profile" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" HorizontalAlignment="Right" DockPanel.Dock="Right" Click="btnProfile_Click"/>
+        </DockPanel>
+
+        <!-- My Orders Content -->
+        <Grid Margin="10,100,10,10" Background="#FFFFF3E0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="My Orders" FontSize="24" FontWeight="Bold" Margin="10" Foreground="#FF01579B" TextAlignment="Center" Grid.Row="0"/>
+
+            <!-- Display My Orders -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
+                <StackPanel>
+                    <GridViewHeaderRowPresenter Columns="{Binding Path=View.Columns, RelativeSource={RelativeSource AncestorType=ListView}}" />
+                    <ListView Name="MyOrdersListView" Background="White" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Order ID" Width="100" DisplayMemberBinding="{Binding OrderId}"/>
+                                <GridViewColumn Header="Receiver Name" Width="100" DisplayMemberBinding="{Binding ReceiverFullname}"/>
+                                <GridViewColumn Header="Receiver Gender" Width="100" DisplayMemberBinding="{Binding ReceiverGender}"/>
+                                <GridViewColumn Header="Receiver Email" Width="150" DisplayMemberBinding="{Binding ReceiverEmail}"/>
+                                <GridViewColumn Header="Phone Number" Width="100" DisplayMemberBinding="{Binding PhoneNumber}"/>
+                                <GridViewColumn Header="Receiver Address" Width="150" DisplayMemberBinding="{Binding ReceiverAddress}"/>
+                                <GridViewColumn Header="Order Date" Width="150" DisplayMemberBinding="{Binding OrderDate}"/>
+                                <GridViewColumn Header="Total Cost" Width="150" DisplayMemberBinding="{Binding TotalCost}"/>
+                                <GridViewColumn Header="Note" Width="150" DisplayMemberBinding="{Binding Note}"/>
+                                <GridViewColumn Header="Order Status" Width="150" DisplayMemberBinding="{Binding OrderStatus}"/>
+                                <GridViewColumn Header="Actions" Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button Content="Received" Tag="{Binding OrderId}" Margin="0,0,5,0" Click="Received_Click">
+                                                    <Button.Style>
+                                                        <Style TargetType="Button">
+                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding OrderStatus}" Value="Delivering">
+                                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </Button.Style>
+                                                </Button>
+                                                <Button Content="Cancel"  Tag="{Binding OrderId}" Click="CancelOrder_Click">
+                                                    <Button.Style>
+                                                        <Style TargetType="Button">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding OrderStatus}" Value="Cancelled">
+                                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding OrderStatus}" Value="Received">
+                                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </Button.Style>
+                                                </Button>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Detail" Width="100">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Detail" Tag="{Binding OrderId}" Click="Detail_Click"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

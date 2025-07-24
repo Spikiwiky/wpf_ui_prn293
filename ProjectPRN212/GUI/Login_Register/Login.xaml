@@ -1,0 +1,45 @@
+﻿<Window x:Class="ProjectPRN212.Login_Register.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN212.Login_Register"
+        mc:Ignorable="d"
+        Title="Login" Height="542" Width="810">
+    <Grid>
+        <!-- Màu nền -->
+        <Grid.Background>
+            <SolidColorBrush Color="#FFE8F5E9"/>
+        </Grid.Background>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Welcome to login Shop App" FontSize="24" FontWeight="Bold" Foreground="#FF01579B" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+
+        <!-- StackPanel chứa các ô nhập liệu và nút bấm -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" Background="#FFFFFFFF" Margin="0,40,0,0">
+            <!-- Ô nhập liệu Username -->
+            <StackPanel Margin="0,10,0,0">
+                <TextBlock Text="Email" Foreground="#FFA0A0A0" Margin="0,0,0,5"/>
+                <TextBox Name="txtEmail" Margin="0,0,0,5" Padding="10" BorderBrush="#FF01579B" BorderThickness="1"/>
+            </StackPanel>
+            <!-- Ô nhập liệu Password -->
+            <StackPanel Margin="0,10,0,0">
+                <TextBlock Text="Password" Foreground="#FFA0A0A0" Margin="0,0,0,5"/>
+                <PasswordBox Name="txtPassword" Margin="0,0,0,5" Padding="10" BorderBrush="#FF01579B" BorderThickness="1"/>
+            </StackPanel>
+            <!-- CheckBox Remember Me -->
+            <CheckBox Name="ckRememberMe" Content="Remember Me" Margin="0,10,0,0" Foreground="#FF01579B"/>
+            <!-- Nút Login -->
+            <Button Name="btnLogin" Content="Login" Background="#FF01579B" Foreground="White" Margin="0,10,0,0" Padding="10" BorderBrush="Transparent" Click="btnLogin_Click"/>
+            <!-- Hyperlink quên mật khẩu -->
+            <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0">
+                <Hyperlink Name="forgotPassLink" Foreground="#FF01579B"  Click="Hyperlink_Click">Forgot Password?</Hyperlink>
+            </TextBlock>
+            <!-- Nút Register -->
+            <Button Name="btnRegister"  Content="Register" Background="#FFB3E5FC" Foreground="#FF01579B" Margin="0,20,0,0" Padding="10" BorderBrush="Transparent" Click="btnRegister_Click"/>
+        </StackPanel>
+
+        <!-- Nút Back -->
+        <Button Name="btnBack" Content="Back" Background="#FFB3E5FC" Foreground="#FF01579B" Margin="0,458,0,0" Padding="5" BorderBrush="Transparent" VerticalAlignment="Top" HorizontalAlignment="Center" Width="74" Click="btnBack_Click" />
+    </Grid>
+</Window>
