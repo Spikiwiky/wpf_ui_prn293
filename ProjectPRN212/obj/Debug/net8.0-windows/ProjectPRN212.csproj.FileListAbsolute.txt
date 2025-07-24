@@ -607,3 +607,9 @@ C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\obj\
 C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\obj\Debug\net8.0-windows\ProjectPRN212.pdb
 C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\obj\Debug\net8.0-windows\ProjectPRN212.genruntimeconfig.cache
 C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\obj\Debug\net8.0-windows\ref\ProjectPRN212.dll
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\obj\Debug\net8.0-windows\ProjectPRN212.sourcelink.json
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\bin\Debug\net8.0-windows\Microsoft.Extensions.Http.dll
+C:\Users\phams\Desktop\project_wpf_cua_viet_anh\Final Project\ProjectPRN212\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll

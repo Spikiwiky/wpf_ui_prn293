@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\gui\\order\\infororder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\order\\infororder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\service\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:service\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 69,
+          "SelectedChildIndex": 70,
           "Children": [
             {
               "$type": "Bookmark",
@@ -294,15 +310,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InforOrder.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Order\\InforOrder.xaml.cs",
-              "RelativeDocumentMoniker": "GUI\\Order\\InforOrder.xaml.cs",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Order\\InforOrder.xaml.cs",
-              "RelativeToolTip": "GUI\\Order\\InforOrder.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA9AAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductApiService.cs",
+              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\ProductApiService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductApiService.cs",
+              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\ProductApiService.cs",
+              "RelativeToolTip": "Service\\ProductApiService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAEAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T08:41:43.831Z",
+              "WhenOpened": "2025-07-24T15:13:41.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:05:50.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-24T15:04:00.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:03:34.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:00:16.488Z",
               "EditorCaption": ""
             }
           ]

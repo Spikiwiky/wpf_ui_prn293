@@ -1,9 +1,11 @@
-﻿using ProjectPRN212.GUI.Cart;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ProjectPRN212.GUI.Cart;
 using ProjectPRN212.GUI.Login_Register;
 using ProjectPRN212.GUI.Order;
 using ProjectPRN212.Login_Register;
 using ProjectPRN212.Models;
 using ProjectPRN212.Presentproduct;
+using ProjectPRN212.Service;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using static ProjectPRN212.Login_Register.Login;
@@ -18,7 +20,22 @@ namespace ProjectPRN212
             InitializeComponent();
             CheckUserbtn();
             LoadNewProduct();
+            checkServiceFunc();
+        }
 
+        private async void checkServiceFunc()
+        {
+            var service = App.ServiceProvider.GetService<ProductApiService>();
+            var products = await service.GetProductsAsync(1, 10);
+
+            if (products != null && products.Any())
+            {
+                MessageBox.Show(string.Join("\n", products.Select(p => $"{p.ProductId} - {p.Name} - {p.BasePrice:C}")));
+            }
+            else
+            {
+                MessageBox.Show("Không lấy được dữ liệu sản phẩm.");
+            }
         }
 
         private void LoadNewProduct()

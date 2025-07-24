@@ -9,6 +9,15 @@ namespace ProjectPRN212
     /// </summary>
     public partial class App : Application
     {
+        public static IServiceProvider ServiceProvider { get; private set; }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            var startup = new Startup();
+            ServiceProvider = startup.ConfigureServices();
+        }
     }
 
 }
