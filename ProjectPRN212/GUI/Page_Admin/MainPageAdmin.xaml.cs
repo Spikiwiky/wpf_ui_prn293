@@ -37,6 +37,26 @@ namespace ProjectPRN212.GUI.Page_Admin
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
+
+            ApplicationState.RoleName = null;
+            this.Visibility = Visibility.Collapsed;
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.ShowDialog();
+            this.Close();
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Collapsed;
+            ManagementProduct ManagementProduct = new ManagementProduct();
+            ManagementProduct.ShowDialog();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Collapsed;
+            ManagementUser ManagementUser = new ManagementUser();
+            ManagementUser.ShowDialog();
             // Handle logout logic
             this.Close();
         }

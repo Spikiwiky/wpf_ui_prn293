@@ -24,6 +24,8 @@ namespace ProjectPRN212
             // Register services that use HttpClient
             services.AddTransient<ProductApiService>();
             services.AddTransient<AdminProductApiService>();
+            services.AddTransient<AuthApiService>();
+
             return services.BuildServiceProvider();
         }
     }

@@ -109,8 +109,12 @@ namespace ProjectPRN212.GUI.Page_Admin
 
         private async void NextPage_Click(object sender, RoutedEventArgs e)
         {
-            CurrentPage++;
-            await LoadProductsAsync();
+
+            ApplicationState.RoleName = null;
+            this.Visibility = Visibility.Collapsed;
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.ShowDialog();
+            this.Close();
         }
 
 
