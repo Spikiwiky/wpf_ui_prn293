@@ -1,5 +1,7 @@
-﻿using ProjectPRN212.GUI.Page_Admin;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ProjectPRN212.GUI.Page_Admin;
 using ProjectPRN212.Models;
+using ProjectPRN212.Service;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using static ProjectPRN212.Login_Register.Login;
@@ -82,8 +84,9 @@ namespace ProjectPRN212.GUI.Login_Register
             }
             else if (ApplicationState.RoleName == "Admin")
             {
-                MainPageAdmin MainPageAdmin = new MainPageAdmin();
-                MainPageAdmin.ShowDialog();
+                var userService = App.ServiceProvider.GetRequiredService<UserApiService>();
+                new MainPageAdmin(userService).ShowDialog();
+                
             }
             else if (ApplicationState.RoleName == "Sale")
             {

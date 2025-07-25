@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\App.xaml
-22-264814468
+25-1624970123
 
-42-609185948
+47-1007214224
 261196688809
-GUI\Cart\Cart.xaml;GUI\Login_Register\ChangePass.xaml;GUI\Login_Register\Login.xaml;GUI\Login_Register\Profile.xaml;GUI\Login_Register\Register.xaml;GUI\Login_Register\ResetPass.xaml;GUI\Login_Register\UpdateProfile.xaml;GUI\Order\InforOrder.xaml;GUI\Order\MyOrder.xaml;GUI\Order\OrderDetail.xaml;GUI\Page_Admin\CreateNewProduct.xaml;GUI\Page_Admin\MainPageAdmin.xaml;GUI\Page_Admin\ManagementOrder.xaml;GUI\Page_Admin\ManagementProduct.xaml;GUI\Page_Admin\ManagementUser.xaml;GUI\Page_Admin\OrderDetails.xaml;GUI\Page_Admin\ProductDetailsWindow.xaml;GUI\Page_Admin\ProductEditWindow.xaml;GUI\Page_Admin\UpdateProduct.xaml;GUI\Presentproduct\PresentProduct.xaml;GUI\Presentproduct\ProductDetail.xaml;MainWindow.xaml;
+GUI\Cart\Cart.xaml;GUI\Login_Register\ChangePass.xaml;GUI\Login_Register\Login.xaml;GUI\Login_Register\Profile.xaml;GUI\Login_Register\Register.xaml;GUI\Login_Register\ResetPass.xaml;GUI\Login_Register\UpdateProfile.xaml;GUI\Order\InforOrder.xaml;GUI\Order\MyOrder.xaml;GUI\Order\OrderDetail.xaml;GUI\Page_Admin\AddUser.xaml;GUI\Page_Admin\CreateNewProduct.xaml;GUI\Page_Admin\EditUser.xaml;GUI\Page_Admin\MainPageAdmin.xaml;GUI\Page_Admin\ManagementOrder.xaml;GUI\Page_Admin\ManagementProduct.xaml;GUI\Page_Admin\ManagementUser.xaml;GUI\Page_Admin\OrderDetails.xaml;GUI\Page_Admin\ProductDetailsWindow.xaml;GUI\Page_Admin\ProductEditWindow.xaml;GUI\Page_Admin\ProductVariantWindow.xaml;GUI\Page_Admin\UpdateProduct.xaml;GUI\Presentproduct\PresentProduct.xaml;GUI\Presentproduct\ProductDetail.xaml;MainWindow.xaml;
 
 False
 

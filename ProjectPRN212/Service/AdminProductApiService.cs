@@ -1,6 +1,7 @@
 ﻿using ProjectPRN212.GUI.Page_Admin;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -156,6 +157,92 @@ namespace ProjectPRN212.Service
             }
         }
 
+        public async Task<bool> SaveProductVariantAsync(ProductVariantDTO variant)
+        {
+            var content = new StringContent(JsonSerializer.Serialize(variant), Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response;
+            if (variant.VariantId.HasValue)
+            {
+                // Update
+                response = await _httpClient.PutAsync($"/api/admin/products/{variant.ProductId}/variants/{variant.VariantId}", content);
+            }
+            else
+            {
+                // Create
+                response = await _httpClient.PostAsync($"/api/admin/products/{variant.ProductId}/variants", content);
+            }
+
+            response.EnsureSuccessStatusCode();
+            return JsonSerializer.Deserialize<bool>(await response.Content.ReadAsStringAsync(), _jsonOptions);
+        }
+
+        // GET all variants of a product
+        public async Task<List<ProductVariantDTO>> GetProductVariantsAsync(int productId)
+        {
+            var response = await _httpClient.GetAsync($"/api/products/{productId}/variants");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<ProductVariantDTO>>(content, _jsonOptions) ?? new();
+        }
+
+
+        public async Task<bool> AddProductVariantAsync(ProductVariantDTO variant)
+        {
+            var json = JsonSerializer.Serialize(variant, _jsonOptions);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync($"/api/products/variants", content);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> UpdateProductVariantAsync(ProductVariantDTO variant)
+        {
+            if (variant.VariantId == null)
+                return false;
+
+            var json = JsonSerializer.Serialize(variant, _jsonOptions);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PutAsync($"/api/products/variants/{variant.VariantId}", content);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteProductVariantAsync(int variantId)
+        {
+            var response = await _httpClient.DeleteAsync($"/api/products/variants/{variantId}");
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteVariantValueAsync(int variantId, int valueIndex)
+        {
+            var response = await _httpClient.DeleteAsync($"/api/products/variants/{variantId}/values/{valueIndex}");
+            return response.IsSuccessStatusCode;
+        }
+
+
+
+
+
+
+
+
+
+        public static ProductVariantDTO ConvertToApiVariant(VariantDTO variant, int productId)
+        {
+            var variantDict = new Dictionary<string, object>
+    {
+        { variant.AttributeName, variant.Values.ToList() }
+    };
+
+            return new ProductVariantDTO
+            {
+                ProductId = productId,
+                Attributes = JsonSerializer.Serialize(variantDict),
+                Variants = new List<Dictionary<string, object>> { variantDict }
+            };
+        }
+
+
+
         public class UploadImageResponse
         {
             public string ImageUrl { get; set; } = string.Empty;
@@ -219,6 +306,12 @@ namespace ProjectPRN212.Service
             public decimal? MaxPrice { get; set; }
             public int? Page { get; set; }
             public int? PageSize { get; set; }
+        }
+
+        public class VariantDTO
+        {
+            public string AttributeName { get; set; } = string.Empty;
+            public ObservableCollection<string> Values { get; set; } = new();
         }
 
     }

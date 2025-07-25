@@ -1,30 +1,186 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\",
+  "WorkspaceRootPath": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\gui\\presentproduct\\presentproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\presentproduct\\presentproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\gui\\presentproduct\\presentproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\presentproduct\\presentproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\gui\\login_register\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\orderdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\orderdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\productvariantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\productvariantwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\updateprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\updateprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\gui\\login_register\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\changepass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\changepass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\service\\authapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\resetpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\resetpass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\order\\infororder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\order\\infororder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\order\\myorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\order\\myorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\order\\orderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\order\\orderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\edituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\edituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\createnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\createnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\adduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\adduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\edituser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\edituser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\managementproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\managementproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\service\\userapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:service\\userapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\service\\adminproductapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:service\\adminproductapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\service\\authapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:service\\authapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|c:\\users\\phams\\desktop\\project_wpf_cua_viet_anh\\final project\\projectprn212\\service\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\service\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:service\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\productvariantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\productvariantwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\presentproduct\\presentproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\presentproduct\\presentproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\viewmodel\\productmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\viewmodel\\productmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\productdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\productdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\page_admin\\createnewproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\page_admin\\createnewproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\login_register\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\login_register\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|f:\\prn3project\\wpf_ui_prn293\\projectprn212\\gui\\presentproduct\\presentproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB654A19-A923-4179-AE4B-EB5FB404E9D9}|ProjectPRN212.csproj|solutionrelative:gui\\presentproduct\\presentproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,35 +190,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 69,
+          "SelectedChildIndex": 196,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:129:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044012}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Bookmark",
@@ -74,6 +242,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
@@ -82,7 +254,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -115,10 +287,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
             },
             {
               "$type": "Bookmark",
@@ -242,10 +410,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
@@ -258,6 +422,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -266,19 +434,211 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -290,18 +650,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
@@ -310,53 +658,456 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:70:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:71:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:72:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:54:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:93:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:49:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:68:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:67:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1196186238:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:46:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:47:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:63:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:65:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:63:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:74:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PresentProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml",
-              "RelativeDocumentMoniker": "GUI\\Presentproduct\\PresentProduct.xaml",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml",
-              "RelativeToolTip": "GUI\\Presentproduct\\PresentProduct.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T11:46:06.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PresentProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml.cs",
-              "RelativeDocumentMoniker": "GUI\\Presentproduct\\PresentProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml.cs",
-              "RelativeToolTip": "GUI\\Presentproduct\\PresentProduct.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T11:46:05.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "GUI\\Login_Register\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml.cs",
-              "RelativeToolTip": "GUI\\Login_Register\\Register.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAA3AAAA",
+              "Title": "ManagementOrder.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementOrder.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementOrder.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementOrder.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementOrder.xaml.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T09:55:01.911Z",
+              "WhenOpened": "2025-07-25T22:47:57.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductVariantWindow.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductVariantWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductVariantWindow.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductVariantWindow.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductVariantWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:36:18.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductEditWindow.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductEditWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductEditWindow.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductEditWindow.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:44:25.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetails.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\OrderDetails.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\OrderDetails.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\OrderDetails.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\OrderDetails.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:40:43.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ManagementOrder.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementOrder.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementOrder.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementOrder.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T20:27:31.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagementUser.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementUser.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementUser.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementUser.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:40:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagementUser.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementUser.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementUser.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementUser.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementUser.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T19:39:12.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateProduct.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\UpdateProduct.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\UpdateProduct.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\UpdateProduct.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\UpdateProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T19:55:47.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\Profile.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Profile.xaml.cs",
+              "RelativeToolTip": "GUI\\Login_Register\\Profile.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:18:56.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangePass.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\ChangePass.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\ChangePass.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\ChangePass.xaml.cs",
+              "RelativeToolTip": "GUI\\Login_Register\\ChangePass.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T22:54:41.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateProfile.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\UpdateProfile.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\UpdateProfile.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\UpdateProfile.xaml.cs",
+              "RelativeToolTip": "GUI\\Login_Register\\UpdateProfile.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T22:55:12.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Profile.xaml",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\Profile.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Profile.xaml",
+              "RelativeToolTip": "GUI\\Login_Register\\Profile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:22.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml",
               "RelativeDocumentMoniker": "GUI\\Login_Register\\Register.xaml",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml",
               "RelativeToolTip": "GUI\\Login_Register\\Register.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-25T09:55:01.072Z",
@@ -364,29 +1115,387 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductApiService.cs",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\ProductApiService.cs",
-              "RelativeDocumentMoniker": "Service\\ProductApiService.cs",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\ProductApiService.cs",
-              "RelativeToolTip": "Service\\ProductApiService.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAADUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T09:43:22.333Z",
+              "DocumentIndex": 15,
+              "Title": "ResetPass.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\ResetPass.xaml",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\ResetPass.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\ResetPass.xaml",
+              "RelativeToolTip": "GUI\\Login_Register\\ResetPass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:19.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthApiService.cs",
-              "DocumentMoniker": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\AuthApiService.cs",
-              "RelativeDocumentMoniker": "Service\\AuthApiService.cs",
-              "ToolTip": "C:\\Users\\phams\\Desktop\\project_wpf_cua_viet_anh\\Final Project\\ProjectPRN212\\Service\\AuthApiService.cs",
-              "RelativeToolTip": "Service\\AuthApiService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T09:43:11.933Z",
+              "DocumentIndex": 16,
+              "Title": "InforOrder.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\InforOrder.xaml",
+              "RelativeDocumentMoniker": "GUI\\Order\\InforOrder.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\InforOrder.xaml",
+              "RelativeToolTip": "GUI\\Order\\InforOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:13.113Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateProfile.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\UpdateProfile.xaml",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\UpdateProfile.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\UpdateProfile.xaml",
+              "RelativeToolTip": "GUI\\Login_Register\\UpdateProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:15.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyOrder.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\MyOrder.xaml",
+              "RelativeDocumentMoniker": "GUI\\Order\\MyOrder.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\MyOrder.xaml",
+              "RelativeToolTip": "GUI\\Order\\MyOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\Register.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Register.xaml.cs",
+              "RelativeToolTip": "GUI\\Login_Register\\Register.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowIoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:55:01.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetail.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\OrderDetail.xaml",
+              "RelativeDocumentMoniker": "GUI\\Order\\OrderDetail.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Order\\OrderDetail.xaml",
+              "RelativeToolTip": "GUI\\Order\\OrderDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T22:54:08.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\Login.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Login.xaml.cs",
+              "RelativeToolTip": "GUI\\Login_Register\\Login.xaml.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwN4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:14:00.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManagementProduct.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementProduct.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementProduct.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementProduct.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T17:26:28.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateNewProduct.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\CreateNewProduct.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\CreateNewProduct.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\CreateNewProduct.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\CreateNewProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T19:46:27.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPageAdmin.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\MainPageAdmin.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\MainPageAdmin.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\MainPageAdmin.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\MainPageAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:40:51.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddUser.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\AddUser.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\AddUser.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\AddUser.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\AddUser.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:55:44.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditUser.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\EditUser.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\EditUser.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\EditUser.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\EditUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T20:46:32.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddUser.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\AddUser.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\AddUser.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\AddUser.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\AddUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T20:55:33.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditUser.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\EditUser.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\EditUser.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\EditUser.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\EditUser.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T20:47:04.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManagementProduct.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementProduct.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ManagementProduct.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ManagementProduct.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ManagementProduct.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:29:54.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserApiService.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\UserApiService.cs",
+              "RelativeDocumentMoniker": "Service\\UserApiService.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\UserApiService.cs",
+              "RelativeToolTip": "Service\\UserApiService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T19:17:50.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminProductApiService.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\AdminProductApiService.cs",
+              "RelativeDocumentMoniker": "Service\\AdminProductApiService.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\AdminProductApiService.cs",
+              "RelativeToolTip": "Service\\AdminProductApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:28:24.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthApiService.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\AuthApiService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthApiService.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\AuthApiService.cs",
+              "RelativeToolTip": "Service\\AuthApiService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:43:11.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductApiService.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\ProductApiService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductApiService.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Service\\ProductApiService.cs",
+              "RelativeToolTip": "Service\\ProductApiService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:43:22.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainPageAdmin.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\MainPageAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\MainPageAdmin.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\MainPageAdmin.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\MainPageAdmin.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:25:23.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductVariantWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductVariantWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductVariantWindow.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductVariantWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductVariantWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:36:26.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PresentProduct.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml",
+              "RelativeDocumentMoniker": "GUI\\Presentproduct\\PresentProduct.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml",
+              "RelativeToolTip": "GUI\\Presentproduct\\PresentProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T11:46:06.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductManagementViewModel.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\ViewModel\\ProductManagementViewModel.cs",
+              "RelativeDocumentMoniker": "GUI\\ViewModel\\ProductManagementViewModel.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\ViewModel\\ProductManagementViewModel.cs",
+              "RelativeToolTip": "GUI\\ViewModel\\ProductManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T19:46:18.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductEditWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductEditWindow.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductEditWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductEditWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:44:27.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductDetailsWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductDetailsWindow.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductDetailsWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductDetailsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:44:36.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductDetailsWindow.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\ProductDetailsWindow.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\ProductDetailsWindow.xaml",
+              "RelativeToolTip": "GUI\\Page_Admin\\ProductDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T19:46:35.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T19:29:41.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateNewProduct.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\CreateNewProduct.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Page_Admin\\CreateNewProduct.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Page_Admin\\CreateNewProduct.xaml.cs",
+              "RelativeToolTip": "GUI\\Page_Admin\\CreateNewProduct.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:44:56.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:21:45.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T18:00:46.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Login.xaml",
+              "RelativeDocumentMoniker": "GUI\\Login_Register\\Login.xaml",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Login_Register\\Login.xaml",
+              "RelativeToolTip": "GUI\\Login_Register\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T18:13:55.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PresentProduct.xaml.cs",
+              "DocumentMoniker": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Presentproduct\\PresentProduct.xaml.cs",
+              "ToolTip": "F:\\Prn3Project\\wpf_ui_prn293\\ProjectPRN212\\GUI\\Presentproduct\\PresentProduct.xaml.cs",
+              "RelativeToolTip": "GUI\\Presentproduct\\PresentProduct.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:46:05.095Z"
             }
           ]
         },
@@ -396,15 +1505,23 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:132:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5b6781c0-e99d-11d0-9954-00a0c91bc8e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -412,7 +1529,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -425,14 +1542,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -498,7 +1607,39 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:133:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{260978c3-582c-487d-ab12-c1fdde07c578}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",

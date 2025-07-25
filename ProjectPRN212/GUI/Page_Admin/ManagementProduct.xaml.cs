@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using static ProjectPRN212.Login_Register.Login;
 using static ProjectPRN212.Service.AdminProductApiService;
 namespace ProjectPRN212.GUI.Page_Admin
 {
@@ -93,10 +94,13 @@ namespace ProjectPRN212.GUI.Page_Admin
 
             if (product != null)
             {
-                // TODO: Show variants for product
-                MessageBox.Show($"Variants for product: {product.Name}");
+                var variantWindow = new ProductVariantWindow(_productService, product);
+                //variantWindow.Owner = this;
+                variantWindow.ShowDialog();
             }
         }
+
+
 
         private async void PreviousPage_Click(object sender, RoutedEventArgs e)
         {

@@ -826,3 +826,9 @@ F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Adm
 F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\ProductDetailsWindow.g.cs
 F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\ProductEditWindow.baml
 F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\ProductEditWindow.g.cs
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\ProductVariantWindow.baml
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\ProductVariantWindow.g.cs
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\EditUser.baml
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\EditUser.g.cs
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\AddUser.baml
+F:\Prn3Project\wpf_ui_prn293\ProjectPRN212\obj\Debug\net8.0-windows\GUI\Page_Admin\AddUser.g.cs

@@ -1,15 +1,18 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using ProjectPRN212.Service;
 using System.Windows;
+using static ProjectPRN212.Login_Register.Login;
 
 
 namespace ProjectPRN212.GUI.Page_Admin
 {
     public partial class MainPageAdmin : Window
     {
-        public MainPageAdmin()
+        private readonly UserApiService _userService;
+        public MainPageAdmin(UserApiService userService)
         {
             InitializeComponent();
+            _userService = userService;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -23,11 +26,7 @@ namespace ProjectPRN212.GUI.Page_Admin
         }
 
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            // Handle "Manage Users" button click here
-            MessageBox.Show("Manage Users Clicked");
-        }
+      
 
         private void btnProfile_Click(object sender, RoutedEventArgs e)
         {
@@ -44,20 +43,15 @@ namespace ProjectPRN212.GUI.Page_Admin
             MainWindow.ShowDialog();
             this.Close();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Visibility = Visibility.Collapsed;
-            ManagementProduct ManagementProduct = new ManagementProduct();
-            ManagementProduct.ShowDialog();
-            this.Close();
-        }
+      
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.Visibility = Visibility.Collapsed;
-            ManagementUser ManagementUser = new ManagementUser();
-            ManagementUser.ShowDialog();
-            // Handle logout logic
+
+            ManagementUser managementUserWindow = new ManagementUser(_userService);
+            managementUserWindow.ShowDialog();
+
             this.Close();
         }
     }

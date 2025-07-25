@@ -25,6 +25,7 @@ namespace ProjectPRN212
             services.AddTransient<ProductApiService>();
             services.AddTransient<AdminProductApiService>();
             services.AddTransient<AuthApiService>();
+            services.AddTransient<UserApiService>();
 
             return services.BuildServiceProvider();
         }
