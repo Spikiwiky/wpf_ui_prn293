@@ -75,26 +75,28 @@ namespace ProjectPRN212.GUI.Login_Register
         {
             this.Close();
 
-            if (ApplicationState.customerSession != null)
+            if (ApplicationState.RoleName == "Customer")
             {
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.ShowDialog();
             }
-            else if (ApplicationState.staffSession != null && ApplicationState.staffSession.RoleId == 1)
+            else if (ApplicationState.RoleName == "Admin")
             {
                 MainPageAdmin MainPageAdmin = new MainPageAdmin();
                 MainPageAdmin.ShowDialog();
             }
-            else if (ApplicationState.staffSession != null && ApplicationState.staffSession.RoleId == 2)
+            else if (ApplicationState.RoleName == "Sale")
             {
                 ManagementOrder ManagementOrder = new ManagementOrder();
                 ManagementOrder.ShowDialog();
             }
-
-
-
-
         }
+
+
+
+
+
+
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
             this.Visibility = Visibility.Collapsed;

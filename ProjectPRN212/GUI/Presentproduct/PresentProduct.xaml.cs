@@ -1,10 +1,12 @@
-﻿using ProjectPRN212.CartModels;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ProjectPRN212.CartModels;
 using ProjectPRN212.GUI.Cart;
 using ProjectPRN212.GUI.Login_Register;
 using ProjectPRN212.GUI.Order;
 using ProjectPRN212.GUI.Presentproduct;
 using ProjectPRN212.Login_Register;
 using ProjectPRN212.Models;
+using ProjectPRN212.Service;
 using System.Windows;
 using static ProjectPRN212.Login_Register.Login;
 namespace ProjectPRN212.Presentproduct
@@ -13,11 +15,12 @@ namespace ProjectPRN212.Presentproduct
     public partial class PresentProduct : Window
     {
         public List<CartItems> cartItems = new List<CartItems>();
-
+        private readonly ProductApiService _productApiService;
 
         public PresentProduct()
         {
             InitializeComponent();
+            _productApiService = App.ServiceProvider.GetService<ProductApiService>();
             CheckUserbtn();
             LoadCategories();
             LoadProducts();
@@ -30,7 +33,7 @@ namespace ProjectPRN212.Presentproduct
         }
         private void CheckUserbtn()
         {
-            if (ApplicationState.customerSession != null)
+            if (ApplicationState.RoleName != null)
             {
                 btnProfile.Visibility = Visibility.Visible;
                 btnMyOrder.Visibility = Visibility.Visible;
@@ -48,15 +51,77 @@ namespace ProjectPRN212.Presentproduct
             }
         }
 
-        private void LoadProducts()
+        //private void LoadProducts()
+        //{
+        //    using (ShopNewContext context = new ShopNewContext())
+        //    {
+
+
+        //        List<Product> products = context.Products.Where(e => e.ProductStatus == true).Where(e => e.IsDeleted == false).ToList();
+
+        //        ProductListBox.ItemsSource = products;
+        //    }
+        //}
+
+        private async void LoadProducts()
         {
-            using (ShopNewContext context = new ShopNewContext())
+            var products = await _productApiService.GetPagedProductsAsync(1, 10);
+            if (products != null)
             {
+                ProductListBox.ItemsSource = products.Select(p => new
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.Name,
+                    SalePrice = p.BasePrice,
+                    Thumbnail = p.Images?.FirstOrDefault() ?? ""
+                }).ToList();
+            }
+            else
+            {
+                MessageBox.Show("Không thể tải danh sách sản phẩm.");
+            }
+        }
 
 
-                List<Product> products = context.Products.Where(e => e.ProductStatus == true).Where(e => e.IsDeleted == false).ToList();
 
-                ProductListBox.ItemsSource = products;
+        //private void btnSearch_Click(object sender, RoutedEventArgs e)
+        //{
+        //    string nameProduct = txtSearch.Text.ToLower();
+        //    using (ShopNewContext context = new ShopNewContext())
+        //    {
+        //        var filteredProducts = context.Products
+        //                                      .Where(p => p.ProductName.ToLower().Contains(nameProduct))
+        //                                      .Where(p => p.ProductStatus == true)
+        //                                      .Where(e => e.IsDeleted == false)
+        //                                      .ToList();
+        //        ProductListBox.ItemsSource = filteredProducts;
+        //    }
+        //}
+
+
+        private async void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string nameProduct = txtSearch.Text.Trim();
+            if (string.IsNullOrEmpty(nameProduct))
+            {
+                LoadProducts(); // Nếu để trống, gọi lại toàn bộ
+                return;
+            }
+
+            var results = await _productApiService.SearchProductsByNameAsync(nameProduct, 1, 10);
+            if (results != null && results.Any())
+            {
+                ProductListBox.ItemsSource = results.Select(p => new
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.Name,
+                    SalePrice = p.BasePrice,
+                    Thumbnail = p.Images?.FirstOrDefault() ?? ""
+                }).ToList();
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy sản phẩm.");
             }
         }
 
@@ -80,38 +145,42 @@ namespace ProjectPRN212.Presentproduct
 
 
 
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
-        {
-            string nameProduct = txtSearch.Text.ToLower();
-            using (ShopNewContext context = new ShopNewContext())
-            {
-                var filteredProducts = context.Products
-                                              .Where(p => p.ProductName.ToLower().Contains(nameProduct))
-                                              .Where(p => p.ProductStatus == true)
-                                              .Where(e => e.IsDeleted == false)
-                                              .ToList();
-                ProductListBox.ItemsSource = filteredProducts;
-            }
-        }
+        //private void Detail_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (ProductListBox.Items.Count == 0)
+        //    {
+        //        MessageBox.Show("Không có sản phẩm nào để show .");
+        //        return;
+        //    }
+        //    if (ProductListBox.SelectedItem != null)
+        //    {
+        //        Product selectedProduct = (Product)ProductListBox.SelectedItem;
+        //        this.Visibility = Visibility.Collapsed;
+        //        int idProduct = selectedProduct.ProductId;
+        //        ProductDetail productDetail = new ProductDetail(idProduct);
+        //        productDetail.ShowDialog();
+        //        this.Close();
+        //    }
+
+        //}
+
         private void Detail_Click(object sender, RoutedEventArgs e)
         {
             if (ProductListBox.Items.Count == 0)
             {
-                MessageBox.Show("Không có sản phẩm nào để show .");
+                MessageBox.Show("Không có sản phẩm nào để show.");
                 return;
             }
+
             if (ProductListBox.SelectedItem != null)
             {
-                Product selectedProduct = (Product)ProductListBox.SelectedItem;
+                dynamic selectedItem = ProductListBox.SelectedItem;
+                int idProduct = selectedItem.ProductId;
                 this.Visibility = Visibility.Collapsed;
-                int idProduct = selectedProduct.ProductId;
                 ProductDetail productDetail = new ProductDetail(idProduct);
                 productDetail.ShowDialog();
                 this.Close();
-
-
             }
-
         }
 
         private void cbCategory_SelectionChanged_1(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -244,7 +313,7 @@ namespace ProjectPRN212.Presentproduct
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
 
-            ApplicationState.customerSession = null;
+            //ApplicationState.customerSession = null;
             CheckUserbtn();
             this.Visibility = Visibility.Collapsed;
             MainWindow MainWindow = new MainWindow();

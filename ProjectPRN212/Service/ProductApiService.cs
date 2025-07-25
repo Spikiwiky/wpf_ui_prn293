@@ -4,15 +4,29 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace ProjectPRN212.Service
 {
-    public class VariantDetail
+    public class ProductVariantDetail
     {
+        [JsonPropertyName("size")]
         public string Size { get; set; }
+
+        [JsonPropertyName("color")]
         public string Color { get; set; }
+
+        [JsonPropertyName("material")]
+        public string Material { get; set; }
+
+        [JsonPropertyName("xuất sứ")]
+        public string XuatXu { get; set; } // cần decode từ UTF-8
+
+        [JsonPropertyName("price")]
         public decimal Price { get; set; }
+
+        [JsonPropertyName("stock")]
         public int Stock { get; set; }
     }
 
@@ -20,8 +34,8 @@ namespace ProjectPRN212.Service
     {
         public int VariantId { get; set; }
         public int ProductId { get; set; }
-        public string Attributes { get; set; } // JSON string: { "size": [...], "color": [...] }
-        public List<VariantDetail> Variants { get; set; }
+        public string Attributes { get; set; } // JSON string
+        public List<ProductVariantDetail> Variants { get; set; }
     }
 
     public class ProductDto
@@ -40,26 +54,62 @@ namespace ProjectPRN212.Service
         public DateTime UpdatedAt { get; set; }
     }
 
-    public class ProductApiService
+    public class ProductApiService 
     {
         private readonly HttpClient _client;
+        private readonly JsonSerializerOptions _jsonOptions;
 
         public ProductApiService(IHttpClientFactory httpClientFactory)
         {
             _client = httpClientFactory.CreateClient("ApiClient");
+            _jsonOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
         }
 
-        // Lấy danh sách sản phẩm có phân trang
-        public async Task<List<ProductDto>> GetProductsAsync(int page = 1, int pageSize = 10)
+        public async Task<List<ProductDto>> GetPagedProductsAsync(int page = 1, int pageSize = 10)
         {
             var response = await _client.GetAsync($"api/Product?page={page}&pageSize={pageSize}");
+
             if (response.IsSuccessStatusCode)
             {
                 var json = await response.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<List<ProductDto>>(json, new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
+                return JsonSerializer.Deserialize<List<ProductDto>>(json, _jsonOptions);
+            }
+
+            return null;
+        }
+
+
+
+        public async Task<List<ProductDto>> SearchProductsByNameAsync(string name, int page = 1, int pageSize = 50)
+        {
+            // Encode query param
+            string encodedName = Uri.EscapeDataString(name);
+            string url = $"api/Product/search?name={encodedName}&page={page}&pageSize={pageSize}";
+
+            var response = await _client.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<List<ProductDto>>(json, _jsonOptions);
+            }
+
+            return null;
+        }
+
+
+
+        public async Task<ProductDto> GetProductByIdAsync(int id)
+        {
+            var response = await _client.GetAsync($"api/Product/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<ProductDto>(json, _jsonOptions);
             }
 
             return null;
@@ -71,4 +121,8 @@ namespace ProjectPRN212.Service
 
 
     }
+
+
+
+
 }

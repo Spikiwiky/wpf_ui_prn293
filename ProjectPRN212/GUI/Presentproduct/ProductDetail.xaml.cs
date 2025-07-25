@@ -1,7 +1,9 @@
-﻿using ProjectPRN212.CartModels;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ProjectPRN212.CartModels;
 using ProjectPRN212.Login_Register;
 using ProjectPRN212.Models;
 using ProjectPRN212.Presentproduct;
+using ProjectPRN212.Service;
 using System.Linq;
 using System.Windows;
 
@@ -9,12 +11,14 @@ namespace ProjectPRN212.GUI.Presentproduct
 {
     public partial class ProductDetail : Window
     {
+        private readonly ProductApiService _productApiService;
         private int idProduct;
         private List<CartItems> cartItems = new List<CartItems>();
         public ProductDetail(int idProduct)
         {
             InitializeComponent();
             this.idProduct = idProduct;
+            _productApiService = App.ServiceProvider.GetService<ProductApiService>();
             cartItems = Application.Current.Properties["CartItems"] as List<CartItems>;
             if (cartItems == null)
             {
@@ -23,23 +27,50 @@ namespace ProjectPRN212.GUI.Presentproduct
             LoadProductDetail();
         }
 
-        private void LoadProductDetail()
-        {
-            using (var context = new ShopNewContext())
-            {
-                Product product = context.Products.FirstOrDefault(p => p.ProductId == idProduct);
+        //private void LoadProductDetail()
+        //{
+        //    using (var context = new ShopNewContext())
+        //    {
+        //        Product product = context.Products.FirstOrDefault(p => p.ProductId == idProduct);
 
-                if (product != null)
+        //        if (product != null)
+        //        {
+        //            this.DataContext = product;
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Product not found!");
+        //            this.Close();
+        //        }
+        //    }
+        //}
+
+        private async void LoadProductDetail()
+        {
+            var product = await _productApiService.GetProductByIdAsync(idProduct);
+
+            if (product != null)
+            {
+                // Map sang ViewModel ẩn danh để binding
+                this.DataContext = new
                 {
-                    this.DataContext = product;
-                }
-                else
-                {
-                    MessageBox.Show("Product not found!");
-                    this.Close();
-                }
+                    ProductName = product.Name,
+                    Summary = product.Description,
+                    SalePrice = product.BasePrice,
+                    ProductDetail = product.Brand,
+                    Quantity = product.Variants?
+                                      .SelectMany(v => v.Variants)
+                                      .Sum(v => v.Stock) ?? 0,
+                    Thumbnail = product.Images?.FirstOrDefault() ?? ""
+                };
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy sản phẩm.");
+                this.Close();
             }
         }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

@@ -25,7 +25,7 @@ namespace ProjectPRN212.GUI.Page_Admin
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
 
-            ApplicationState.staffSession = null;
+            ApplicationState.RoleName = null;
             this.Visibility = Visibility.Collapsed;
             MainWindow MainWindow = new MainWindow();
             MainWindow.ShowDialog();

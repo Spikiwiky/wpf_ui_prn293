@@ -100,7 +100,7 @@ namespace ProjectPRN212.GUI.Page_Admin
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ApplicationState.staffSession = null;
+            ApplicationState.RoleName = null;
             this.Visibility = Visibility.Collapsed;
             MainWindow MainWindow = new MainWindow();
             MainWindow.ShowDialog();

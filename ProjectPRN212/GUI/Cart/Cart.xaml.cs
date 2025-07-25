@@ -32,7 +32,7 @@ namespace ProjectPRN212.GUI.Cart
 
         private void CheckUserbtn()
         {
-            if (ApplicationState.customerSession != null)
+            if (ApplicationState.RoleName != null)
             {
                 btnProfile.Visibility = Visibility.Visible;
                 btnMyOrder.Visibility = Visibility.Visible;
@@ -124,7 +124,7 @@ namespace ProjectPRN212.GUI.Cart
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
-            ApplicationState.customerSession = null;
+            ApplicationState.RoleName = null;
             CheckUserbtn();
             this.Visibility = Visibility.Collapsed;
             MainWindow MainWindow = new MainWindow();
