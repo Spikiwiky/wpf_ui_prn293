@@ -20,22 +20,15 @@ namespace ProjectPRN212
             InitializeComponent();
             CheckUserbtn();
             LoadNewProduct();
-            checkServiceFunc();
+            //testApi();
         }
 
-        private async void checkServiceFunc()
+        private async void testApi()
         {
             var service = App.ServiceProvider.GetService<ProductApiService>();
-            var products = await service.GetProductsAsync(1, 10);
+            var products = await service.GetPagedProductsAsync(1, 10);
+            MessageBox.Show(string.Join("\n", products.Select(p => $"{p.ProductId} - {p.Name} - {p.BasePrice:C}")));
 
-            if (products != null && products.Any())
-            {
-                MessageBox.Show(string.Join("\n", products.Select(p => $"{p.ProductId} - {p.Name} - {p.BasePrice:C}")));
-            }
-            else
-            {
-                MessageBox.Show("Không lấy được dữ liệu sản phẩm.");
-            }
         }
 
         private void LoadNewProduct()
@@ -67,7 +60,7 @@ namespace ProjectPRN212
 
         private void CheckUserbtn()
         {
-            if (ApplicationState.customerSession != null)
+            if (ApplicationState.RoleName != null)
             {
                 btnProfile.Visibility = Visibility.Visible;
                 btnMyOrder.Visibility = Visibility.Visible;
@@ -127,7 +120,7 @@ namespace ProjectPRN212
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
-            ApplicationState.customerSession = null;
+            ApplicationState.RoleName = null;
             CheckUserbtn();
             this.Visibility = Visibility.Collapsed;
             MainWindow MainWindow = new MainWindow();
