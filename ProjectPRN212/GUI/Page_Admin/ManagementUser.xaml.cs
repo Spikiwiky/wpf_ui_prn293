@@ -32,10 +32,10 @@ namespace ProjectPRN212.GUI.Page_Admin
 
         private void btnManageProduct_Click(object sender, RoutedEventArgs e)
         {
-            this.Visibility = Visibility.Collapsed;
-            ManagementProduct ManagementProduct = new ManagementProduct();
-            ManagementProduct.ShowDialog();
-            this.Close();
+            //this.Visibility = Visibility.Collapsed;
+            //ManagementProduct ManagementProduct = new ManagementProduct();
+            //ManagementProduct.ShowDialog();
+            //this.Close();
         }
         private void lockUserButton_Click(object sender, RoutedEventArgs e)
         {
