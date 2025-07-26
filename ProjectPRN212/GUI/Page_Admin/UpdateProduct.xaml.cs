@@ -39,38 +39,38 @@ namespace ProjectPRN212.GUI.Page_Admin
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Visibility = Visibility.Collapsed;
-            ManagementProduct ManagementProduct = new ManagementProduct();
-            ManagementProduct.ShowDialog();
-            this.Close();
+            //this.Visibility = Visibility.Collapsed;
+            //ManagementProduct ManagementProduct = new ManagementProduct();
+            //ManagementProduct.ShowDialog();
+            //this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            using (ShopNewContext context = new ShopNewContext())
-            {
-                var product = context.Products.FirstOrDefault(p => p.ProductId == productId);
+            //using (ShopNewContext context = new ShopNewContext())
+            //{
+            //    var product = context.Products.FirstOrDefault(p => p.ProductId == productId);
 
-                if (product != null)
-                {
-                    product.ProductName = txtProductName.Text;
-                    product.SalePrice = float.Parse(txtPrice.Text);
-                    product.Quantity = numericQuantity.Value ?? 0;
-                    product.Summary = txtSummary.Text;
-                    product.ProductDetail = txtProductDetail.Text;
+            //    if (product != null)
+            //    {
+            //        product.ProductName = txtProductName.Text;
+            //        product.SalePrice = float.Parse(txtPrice.Text);
+            //        product.Quantity = numericQuantity.Value ?? 0;
+            //        product.Summary = txtSummary.Text;
+            //        product.ProductDetail = txtProductDetail.Text;
 
-                    context.SaveChanges();
-                    MessageBox.Show("Product updated successfully!");
-                    this.Visibility = Visibility.Collapsed;
-                    ManagementProduct ManagementProduct = new ManagementProduct();
-                    ManagementProduct.ShowDialog();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Product not found");
-                }
-            }
+            //        context.SaveChanges();
+            //        MessageBox.Show("Product updated successfully!");
+            //        this.Visibility = Visibility.Collapsed;
+            //        ManagementProduct ManagementProduct = new ManagementProduct();
+            //        ManagementProduct.ShowDialog();
+            //        this.Close();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Product not found");
+            //    }
+            //}
         }
     }
 }

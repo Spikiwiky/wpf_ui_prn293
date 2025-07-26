@@ -1,143 +1,117 @@
-﻿using ProjectPRN212.GUI.Login_Register;
-using ProjectPRN212.Models;
+﻿using ProjectPRN212.Service;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using static ProjectPRN212.Login_Register.Login;
-
+using static ProjectPRN212.Service.AdminProductApiService;
 namespace ProjectPRN212.GUI.Page_Admin
 {
-    /// <summary>
-    /// Interaction logic for ManagementProduct.xaml
-    /// </summary>
-    public partial class ManagementProduct : Window
+    public partial class ProductManagementWindow : Window, INotifyPropertyChanged
     {
-        public ManagementProduct()
+        private readonly AdminProductApiService _productService;
+        private List<ProductDTO> _products = new();
+        private int _currentPage = 1;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        public List<ProductDTO> Products
+        {
+            get => _products;
+            set
+            {
+                _products = value;
+                OnPropertyChanged(nameof(Products));
+            }
+        }
+
+        public int CurrentPage
+        {
+            get => _currentPage;
+            set
+            {
+                _currentPage = value;
+                OnPropertyChanged(nameof(CurrentPage));
+            }
+        }
+
+        public ProductManagementWindow(AdminProductApiService productService)
         {
             InitializeComponent();
-            loadProduct();
+            _productService = productService;
+            DataContext = this; 
+            _ = LoadProductsAsync();
         }
 
-        private void loadProduct()
+        private async Task LoadProductsAsync()
         {
-            using (ShopNewContext context = new ShopNewContext())
+            Products = await _productService.GetAllProductsAsync(CurrentPage);
+        }
+
+        private void OnPropertyChanged(string propertyName) =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+
+        private async void Edit_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var product = button?.Tag as ProductDTO;
+
+            if (product != null)
             {
+                var editWindow = new ProductEditWindow(_productService, product); // pass service and product
+                bool? result = editWindow.ShowDialog(); // open as modal dialog
 
-
-                List<Product> products = context.Products.Where(e => e.IsDeleted == false).ToList();
-
-                dgProducts.ItemsSource = products;
-            }
-        }
-
-        private void btnProfile_Click(object sender, RoutedEventArgs e)
-        {
-            this.Visibility = Visibility.Collapsed;
-            Profile profile = new Profile();
-            profile.ShowDialog();
-            this.Close();
-        }
-        private void UpdateButton_Click(object sender, RoutedEventArgs e)
-        {
-            Button button = sender as Button;
-            if (button != null)
-            {
-                Product product = button.DataContext as Product;
-                if (product != null)
+                if (result == true)
                 {
-
-                    using (ShopNewContext context = new ShopNewContext())
-                    {
-                        Product dbProduct = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
-                        if (dbProduct != null)
-                        {
-                            int idProductToUpdate = dbProduct.ProductId;
-                            this.Visibility = Visibility.Collapsed;
-                            UpdateProduct UpdateProduct = new UpdateProduct(idProductToUpdate);
-                            UpdateProduct.ShowDialog();
-                            this.Close();
-                        }
-                    }
+                    // Optionally reload product list or update UI
+                    await LoadProductsAsync(); // assuming you have this method
                 }
             }
-
-
         }
-        private void HideProduct_Click(object sender, RoutedEventArgs e)
+
+
+        private void Details_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
-            if (button != null)
-            {
-                Product product = button.DataContext as Product;
-                if (product != null)
-                {
-                    product.ProductStatus = !product.ProductStatus;
+            var button = sender as Button;
+            var product = button?.Tag as ProductDTO;
 
-                    using (ShopNewContext context = new ShopNewContext())
-                    {
-                        Product dbProduct = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
-                        if (dbProduct != null)
-                        {
-                            dbProduct.ProductStatus = false;
-                            context.SaveChanges();
-                            MessageBox.Show($"Bạn đã ẩn {dbProduct.ProductName}!");
-                        }
-                    }
-                }
+            if (product != null)
+            {
+                
+                    var detailsWindow = new ProductDetailsWindow(product);
+                    detailsWindow.Owner = this;
+                    detailsWindow.ShowDialog();
+                
             }
-            loadProduct();
         }
 
-        private void ShowProduct_Click(object sender, RoutedEventArgs e)
+        private void Variants_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
-            if (button != null)
-            {
-                Product product = button.DataContext as Product;
-                if (product != null)
-                {
-                    product.ProductStatus = !product.ProductStatus;
+            var button = sender as Button;
+            var product = button?.Tag as ProductDTO;
 
-                    using (ShopNewContext context = new ShopNewContext())
-                    {
-                        Product dbProduct = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
-                        if (dbProduct != null)
-                        {
-                            dbProduct.ProductStatus = true;
-                            context.SaveChanges();
-                            MessageBox.Show($"Bạn đã hiển thị  {dbProduct.ProductName}!");
-                        }
-                    }
-                }
+            if (product != null)
+            {
+                var variantWindow = new ProductVariantWindow(_productService, product);
+                //variantWindow.Owner = this;
+                variantWindow.ShowDialog();
             }
-            loadProduct();
         }
 
-        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+
+
+        private async void PreviousPage_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
-
-            if (button != null)
+            if (CurrentPage > 1)
             {
-                Product product = button.DataContext as Product;
-                if (product != null)
-                {
-
-                    using (ShopNewContext context = new ShopNewContext())
-                    {
-                        Product dbProduct = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
-                        if (dbProduct != null)
-                        {
-                            dbProduct.IsDeleted = true;
-                            context.SaveChanges();
-
-                            MessageBox.Show($"Bạn đã  xoa :   {dbProduct.ProductName}!");
-                        }
-                    }
-                }
+                CurrentPage--;
+                await LoadProductsAsync();
             }
-            loadProduct();
         }
-        private void btnLogout_Click(object sender, RoutedEventArgs e)
+
+        private async void NextPage_Click(object sender, RoutedEventArgs e)
         {
 
             ApplicationState.RoleName = null;
@@ -147,21 +121,6 @@ namespace ProjectPRN212.GUI.Page_Admin
             this.Close();
         }
 
-        private void btn_createNewProduct_Click(object sender, RoutedEventArgs e)
-        {
 
-            this.Visibility = Visibility.Collapsed;
-            CreateNewProduct CreateNewProduct = new CreateNewProduct();
-            CreateNewProduct.ShowDialog();
-            this.Close();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Visibility = Visibility.Collapsed;
-            ManagementUser ManagementUser = new ManagementUser();
-            ManagementUser.ShowDialog();
-            this.Close();
-        }
     }
 }

@@ -88,19 +88,19 @@ namespace ProjectPRN212.GUI.Page_Admin
                 context.SaveChanges();
             }
 
-            MessageBox.Show("Product created successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-            this.Visibility = Visibility.Collapsed;
-            ManagementProduct ManagementProduct = new ManagementProduct();
-            ManagementProduct.ShowDialog();
-            this.Close();
+            //MessageBox.Show("Product created successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            //this.Visibility = Visibility.Collapsed;
+            //ManagementProduct ManagementProduct = new ManagementProduct();
+            //ManagementProduct.ShowDialog();
+            //this.Close();
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Visibility = Visibility.Collapsed;
-            ManagementProduct ManagementProduct = new ManagementProduct();
-            ManagementProduct.ShowDialog();
-            this.Close();
+            //this.Visibility = Visibility.Collapsed;
+            //ManagementProduct ManagementProduct = new ManagementProduct();
+            //ManagementProduct.ShowDialog();
+            //this.Close();
         }
     }
 }

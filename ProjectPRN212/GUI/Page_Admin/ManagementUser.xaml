@@ -3,50 +3,75 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ProjectPRN212.GUI.Page_Admin"
         mc:Ignorable="d"
-        Title="ManagementUser" Height="544" Width="1081">
+        Title="User Management"
+        Height="550" Width="1080"
+        WindowStartupLocation="CenterScreen">
+
     <Grid>
+        <!-- Top Header -->
         <StackPanel Orientation="Horizontal" Background="#FFB3E5FC" Height="50" VerticalAlignment="Top">
-            <TextBlock Text="Management User" Foreground="#FF01579B" FontSize="24" VerticalAlignment="Center" Margin="10,0"/>
+            <TextBlock Text="User Management" Foreground="#FF01579B"
+                       FontSize="24" VerticalAlignment="Center"
+                       Margin="10,0"/>
         </StackPanel>
 
+        <!-- Navigation Panel -->
         <DockPanel Background="#FFFFF9C4" Height="40" VerticalAlignment="Top" Margin="0,50,0,0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                <Button Content="Manage Products"  Name="btnManageProduct"  Width="120" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" Click="btnManageProduct_Click"/>
-                <Button Content="Manage Users" Width="120" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent"/>
+                <Button Content="Manage Products" Name="btnManageProduct" Width="120"
+                        Background="#FFFFCC80" Foreground="#FF01579B"
+                        BorderBrush="Transparent" Click="btnManageProduct_Click"/>
+                <Button Content="Manage Users" Width="120"
+                        Background="#FFFFCC80" Foreground="#FF01579B"
+                        BorderBrush="Transparent"/>
             </StackPanel>
 
-            <Button Name="btnLogout" Content="Logout" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" DockPanel.Dock="Right" Click="btnLogout_Click"  />
-            <Button  x:Name="btnProfile"  Content="Profile" Width="100" Background="#FFFFCC80" Foreground="#FF01579B" BorderBrush="Transparent" HorizontalAlignment="Right" DockPanel.Dock="Right" Click="btnProfile_Click"  />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Right">
+                <Button x:Name="btnAddUser" Content="Add User" Width="100"
+                        Background="#FF81C784" Foreground="White"
+                        BorderBrush="Transparent" Margin="5,0"
+                        Click="btnAddUser_Click"/>
+                <Button x:Name="btnProfile" Content="Profile" Width="100"
+                        Background="#FFFFCC80" Foreground="#FF01579B"
+                        BorderBrush="Transparent" Margin="5,0" Click="btnProfile_Click"/>
+                <Button x:Name="btnLogout" Content="Logout" Width="100"
+                        Background="#FFFFCC80" Foreground="#FF01579B"
+                        BorderBrush="Transparent" Margin="5,0" Click="btnLogout_Click"/>
+            </StackPanel>
         </DockPanel>
 
-        <DataGrid x:Name="dgUsers" Margin="10,95,10,4"
+        <!-- User DataGrid -->
+        <DataGrid x:Name="dgUsers" Margin="10,95,10,10"
                   AutoGenerateColumns="False"
                   CanUserAddRows="False"
-                  ItemsSource="{Binding Customers}"
+                  ItemsSource="{Binding Users}"
                   SelectionMode="Single"
-                  SelectionUnit="FullRow">
+                  SelectionUnit="FullRow"
+                  IsReadOnly="True">
+
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding CustomerId}" Width="50"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding Fullname}" Width="150" FontWeight="Bold"/>
-                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="150"/>
-
+                <DataGridTextColumn Header="ID" Binding="{Binding UserId}" Width="60"/>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding UserName}" Width="150" FontWeight="Bold"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200"/>
-                <DataGridTextColumn Header="Phone" Binding="{Binding PhoneNumber}" Width="150"/>
+                <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="130"/>
                 <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="200"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="80"/>
 
-                <DataGridTemplateColumn Header="Actions" Width="*">
+                <!-- Lock / Unlock / Detail Buttons -->
+                <DataGridTemplateColumn Header="Actions" Width="220">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Content="Lock User" Background="Red"  Click="lockUserButton_Click" Margin="5">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="Lock"
+                                        Margin="5,0"
+                                        Background="Red" Foreground="White"
+                                        Click="lockUserButton_Click">
                                     <Button.Style>
                                         <Style TargetType="Button">
                                             <Setter Property="Visibility" Value="Collapsed"/>
                                             <Style.Triggers>
-                                                <DataTrigger Binding="{Binding Status}" Value="True">
+                                                <DataTrigger Binding="{Binding Status}" Value="1">
                                                     <Setter Property="Visibility" Value="Visible"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
@@ -54,18 +79,26 @@
                                     </Button.Style>
                                 </Button>
 
-                                <Button Content="Unlock User" Click="UnlockUserButton_Click" Margin="5">
+                                <Button Content="Unlock"
+                                        Margin="5,0"
+                                        Background="Green" Foreground="White"
+                                        Click="UnlockUserButton_Click">
                                     <Button.Style>
                                         <Style TargetType="Button">
                                             <Setter Property="Visibility" Value="Collapsed"/>
                                             <Style.Triggers>
-                                                <DataTrigger Binding="{Binding Status}" Value="False">
+                                                <DataTrigger Binding="{Binding Status}" Value="0">
                                                     <Setter Property="Visibility" Value="Visible"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
                                     </Button.Style>
                                 </Button>
+
+                                <Button Content="Edit"
+                                        Margin="5,0"
+                                        Background="#FF64B5F6" Foreground="White"
+                                        Click="btnEdit_Click"/>
                             </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

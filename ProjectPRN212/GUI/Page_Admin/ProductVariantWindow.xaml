@@ -1,0 +1,33 @@
+﻿<Window x:Class="ProjectPRN212.GUI.Page_Admin.ProductVariantWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Product Variants" Height="600" Width="800">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock FontWeight="Bold" FontSize="16" Text="{Binding Product.Name}" Margin="0,0,0,10"/>
+
+            <ListBox ItemsSource="{Binding Product.Variants}" DisplayMemberPath="Attributes" Height="150"/>
+
+            <TextBlock Text="Add Variant Value:" FontWeight="Bold" Margin="0,10,0,5"/>
+            <ItemsControl ItemsSource="{Binding VariantAttributes}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="0,2">
+                            <CheckBox Content="{Binding AttributeName}" IsChecked="{Binding IsSelected}"/>
+                            <ComboBox ItemsSource="{Binding Values}" Width="150" SelectedItem="{Binding SelectedValue}" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Price:" VerticalAlignment="Center"/>
+                <TextBox Width="100" Text="{Binding NewPrice}" Margin="5,0"/>
+                <TextBlock Text="Stock:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <TextBox Width="100" Text="{Binding NewStock}" Margin="5,0"/>
+            </StackPanel>
+
+            <Button Content="Add Variant Value" Width="150" Margin="0,10,0,0" Click="OnAddVariantValueClick"/>
+        </StackPanel>
+    </Grid>
+</Window>

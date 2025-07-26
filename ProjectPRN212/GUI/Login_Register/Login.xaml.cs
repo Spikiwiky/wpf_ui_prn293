@@ -219,9 +219,10 @@ namespace ProjectPRN212.Login_Register
 
                 if (response.roleName == "Admin")
                 {
-                    new MainPageAdmin().ShowDialog();
+                    var userService = App.ServiceProvider.GetRequiredService<UserApiService>();
+                    new MainPageAdmin(userService).ShowDialog();
                 }
-                else if (response.roleName == "Sale" || response.roleName == "Saler")
+                else if (response.roleName == "Sale" || response.roleName == "Staff")
                 {
                     new ManagementOrder().ShowDialog();
                 }
